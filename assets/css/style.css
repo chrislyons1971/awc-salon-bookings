@@ -1,0 +1,154 @@
+/*
+ * Any custom CSS goes here
+ */
+body{ font-size: 110% }
+
+/*table td:hover {
+    background-color: rgba(0,0,0,.075);
+}
+*/
+.table{
+/*	border-bottom:1px solid #f4a68b;
+	border-left:1px solid #f4a68b;
+	border-right:1px solid #f4a68b;*/
+}
+
+.table td{
+	/*border: 1px solid #D3D8DD;*/
+	border:none;
+	padding:0;
+}
+
+.table th{
+	border-top:1px solid #f4a68b;
+}
+
+.table th a{	
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color:black;
+}
+.table th a:hover{
+	border-radius:20rem;
+	text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.table td a{
+	display: block;
+	border-radius:1rem;
+	padding-top:1.5rem;
+	padding-bottom: 1.5rem;
+	width:100%;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color:black;
+}
+
+.table td a:hover{
+	text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table td a:active{
+	text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.table td .table-info:hover{
+	text-decoration: none;
+    background-color:#D8EFF2;
+}
+
+.table td .table-info:active{
+	text-decoration: none;
+    background-color:#7AC8D1;
+}
+
+.table td .table-success:hover{
+	text-decoration: none;
+    background-color:#DAF0DD;
+}
+
+.table td .table-success:active{
+	text-decoration: none;
+    background-color:#79C883;
+}
+
+.table td .table-primary:hover{
+	text-decoration: none;
+    background-color:#FBE2D9;
+}
+
+.table td .table-primary:active{
+	text-decoration: none;
+    background-color:#F19E83;
+}
+
+.day td{
+	padding:0.75rem;
+	border-top: 1px solid #f4a68b;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.day td a{
+	display: block;
+	border-radius:1rem;
+	padding-top:0.75rem;
+	padding-bottom: 0.75rem;
+	width:100%;
+}
+
+.mini-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.calendar{
+	width: 100%;	
+	margin-right: auto;
+	margin-left: auto;
+	font-size:1.5rem;
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) {
+	.calendar{
+		width: 866px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	.calendar{
+		width: 626px;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	.calendar{
+		width: 446px;
+	}
+}
+
+@media (min-width: 576px) {
+	.mini-container {
+		width: 540px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+	.calendar{
+		font-size: 110%;
+	}
+
+	.table th, .table td {
+	    padding: 0;
+	}
+}
